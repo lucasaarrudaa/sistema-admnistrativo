@@ -1,7 +1,9 @@
 <?php
 require 'config.php';
+
 $username = [];
 $id = filter_input(INPUT_GET, 'id');
+
 if($id){
     $sql = $pdo->prepare("SELECT * FROM users_consult WHERE id = :id");
     $sql->bindValue(':id', $id);
@@ -12,7 +14,6 @@ if($id){
     }else{
         header("Location: list_users.php");
     }
-
 }else{
     header("Location: list_users.php");
 }

@@ -7,6 +7,7 @@ if($id){
     $sql->bindValue(':id',$id);
     $sql->execute();
 }
+
 header("Location:list_users.php");
 ?>
 
