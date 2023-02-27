@@ -9,7 +9,7 @@ Título: Sistema de login completo
 
 Descrição: Esse projeto foi feito com a finalidade de adminstrar os usuários a partir de uma área adminstrativa. 
 
-Start: Antes de iniciar, vá ao arquivo "config.php" e defina suas credenciais do banco de dados.
+Start: Antes de iniciar, vá nos arquivos "config.php" e 'search_action' (linha46) e defina suas credenciais do banco de dados.
 
 define('DB_SERVER', 'localhost') ------ no lugar de 'localhost' coloque o host de sua preferência.
 define('DB_USERNAME', 'root');   ------ no lugar de 'username' coloque o seu usuário.
