@@ -17,5 +17,5 @@ define('DB_PASSWORD', '');       ------ no lugar de '' coloque sua senha.
 define('DB_NAME', 'meubanco');   ------ no lugar de 'meubanco' coloque o nome do seu banco de dados.
 
 OBS: 
-1- As sugestões de query para melhor funcionamento do sistema de login estão dentro do arquivo "QUERY LOGIN".
+1- As sugestões de query para melhor funcionamento do sistema de login estão dentro do arquivo "QUERY ADMINSTRATIVO.
 2- O arquivo index do projeto é o 'login.php'
